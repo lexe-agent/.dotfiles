@@ -9,7 +9,7 @@
   home.packages = [
     claude-code
     rsync # Platform-aware wrapper (see pkgs/rsync.nix)
-    # pkgs.bat # Cat with syntax highlighting
+    pkgs.bat # Cat with syntax highlighting
     pkgs.gh # GitHub CLI
     pkgs.go
     pkgs.nil # Nix LSP
